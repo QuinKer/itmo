@@ -1,32 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-	<weeks>1</weeks>
-	<weeks>3</weeks>
-	<weeks>5</weeks>
-	<weeks>7</weeks>
-	<weeks>9</weeks>
-	<weeks>11</weeks>
-	<weeks>13</weeks>
-	<weeks>15</weeks>
-	<day>Четверг</day>
-	<lessons>
-		<first>
-			<name>История российской науки и техники</name>
-			<type>Лекция</type>
-			<teacher>Белоусов Александр Сергеевич</teacher>
-			<audience>ауд. Lemon Classroom (1419)</audience>
-			<building>Кронверкский пр., д.49, лит.А</building>
-			<start>13:30</start>
-			<end>15:00</end>
-		</first>
-		<second>
-			<name>История российской науки и техники</name>
-			<type>Лекция</type>
-			<teacher>Белоусов Александр Сергеевич</teacher>
-			<audience>ауд. 2414</audience>
-			<building>Кронверкский пр., д.49, лит.А</building>
-			<start>17:00</start>
-			<end>18:30</end>
-		</second>
-	</lessons>
+	<schedule>{</schedule>
+	<schedule>day: Вторник</schedule>
+	<schedule>weeks: [1, 3, 5, 7, 9, 11, 13, 15]</schedule>
+	<schedule>lessons: {</schedule>
+	<schedule>first: {</schedule>
+	<schedule>name: Математический анализ</schedule>
+	<schedule>type: Практика</schedule>
+	<schedule>teacher: Юрова Татьяна Сергеевна</schedule>
+	<schedule>audience: ауд. 2414</schedule>
+	<schedule>building: Кронверкский пр., д.49, лит.А</schedule>
+	<schedule>start: 08:20</schedule>
+	<schedule>end: 09:30</schedule>
+	<schedule>}</schedule>
+	<schedule>second: {</schedule>
+	<schedule>name: Линейная алгебра</schedule>
+	<schedule>type: Практика</schedule>
+	<schedule>teacher: Ефремов Илья Дмитриевич</schedule>
+	<schedule>audience: ауд. ауд.1316 (1316)</schedule>
+	<schedule>building: Кронверкский пр., д.49, лит.А</schedule>
+	<schedule>start: 11:40</schedule>
+	<schedule>end: 13:10</schedule>
+	<schedule>}</schedule>
+	<schedule>}</schedule>
+	<schedule>}</schedule>
+	<schedule>{</schedule>
+	<schedule>day: Четверг</schedule>
+	<schedule>weeks: [1, 3, 5, 7, 9, 11, 13, 15]</schedule>
+	<schedule>lessons: {</schedule>
+	<schedule>first: {</schedule>
+	<schedule>name: История российской науки и техники</schedule>
+	<schedule>type: Лекция</schedule>
+	<schedule>teacher: Белоусов Александр Сергеевич</schedule>
+	<schedule>audience: ауд. Lemon Classroom (1419)</schedule>
+	<schedule>building: Кронверкский пр., д.49, лит.А</schedule>
+	<schedule>start: 13:30</schedule>
+	<schedule>end: 15:00</schedule>
+	<schedule>}</schedule>
+	<schedule>second: {</schedule>
+	<schedule>name: История российской науки и техники</schedule>
+	<schedule>type: Лекция</schedule>
+	<schedule>teacher: Белоусов Александр Сергеевич</schedule>
+	<schedule>audience: ауд. 2414</schedule>
+	<schedule>building: Кронверкский пр., д.49, лит.А</schedule>
+	<schedule>start: 17:00</schedule>
+	<schedule>end: 18:30</schedule>
+	<schedule>}</schedule>
+	<schedule>}</schedule>
+	<schedule>}</schedule>
 </root>
