@@ -41,7 +41,7 @@ def json_list():
 
 
 xml_file = open('rez.xml', 'w', encoding='utf-8')
-xml_tab = -1
+xml_tab = 1
 
 
 def xml_dict(dictionary):
