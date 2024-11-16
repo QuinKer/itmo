@@ -3,7 +3,7 @@ import csv
 
 json_data = json.load(open('main.json', 'r', encoding='UTF-8'))
 
-writer = csv.writer(open('rez_5.csv', 'w', encoding='windows-1251', newline=''), delimiter=';')
+writer = csv.writer(open('rez_5.csv', 'w', encoding='UTF-8', newline=''), delimiter=';')
 
 lessons = ['lessons']
 atr = [[''] for _ in range(7)]
