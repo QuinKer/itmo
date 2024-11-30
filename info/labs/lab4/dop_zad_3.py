@@ -184,7 +184,7 @@ def xml_list(name, array):
         elif item in ['true', 'false']:
             xml_file.write('\t' * xml_tab + f'<{name} available="{item}"/>' + '\n')
         elif type(item) is list:
-            raise Exception('В XML список-блок не может содержать дочерних список-блоков')
+            raise Exception('В XML список-блок не может содержать список-блоков')
         elif type(item) is dict:
             xml_file.write('\t' * xml_tab + f'<{name}>' + '\n')
             xml_tab += 1
